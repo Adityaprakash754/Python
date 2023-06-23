@@ -1,6 +1,6 @@
 # find best of two test average mark sout of three - Lab 1
+
 #Method 1
-'''
 marks = []
 
 print("Enter test1, test2,test3 marks: ")
@@ -13,7 +13,8 @@ marks.insert(2,n3)
 marks.sort()
 
 print("Average value = ",(marks[1]+marks[2])/2)
-'''
+
+#*******************************************************
 
 #Method 2
 print("Enter test1, test2,test3 marks: ")
