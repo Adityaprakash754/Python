@@ -2,9 +2,7 @@
 year = int(input("Enter year: "))
 
 
-if(year%4 == 0):
-    print("It is a leap year")
-elif(year%400 == 0 & year%100 !=0):
+if((Year % 400 == 0) or (Year % 100 != 0) and (Year % 4 == 0)):
     print("It is a leap year")
 else:
     print("It is not a leap year")
