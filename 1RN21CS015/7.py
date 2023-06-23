@@ -17,8 +17,8 @@ else:
     print("It is not a pallindrome")
 
 for i in range(10):
-    if str_val.count(str(i)) > 0:
-        print(str(i),"appears", str_val.count(str(i)), "times");
+    if n.count(str(i)) > 0:
+        print(str(i),"appears", n.count(str(i)), "times");
      
 #**************************************************************************
 
@@ -32,8 +32,8 @@ else:
     print("It is not a pallindrome")
 
 for i in range(10):
-    if str_val.count(str(i)) > 0:
-        print(str(i),"appears", str_val.count(str(i)), "times");
+    if n.count(str(i)) > 0:
+        print(str(i),"appears", n.count(str(i)), "times");
 
 
 
