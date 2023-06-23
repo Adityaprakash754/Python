@@ -28,19 +28,9 @@ if(n == num):
 else:
     print("It is not a pallindrome")
 
-num1 =[]
-for j in n:
-    num1.append(j)
-    
-num1.sort()
-count = 1
-
-for i in range(len(num1) -1):
-    if(num1[i] == num1[i+1]):
-        count+=1
-    else:
-        print(num1[i-1],":",count)
-        count = 1
+for i in range(10):
+    if str_val.count(str(i)) > 0:
+        print(str(i),"appears", str_val.count(str(i)), "times");
 
 
 
