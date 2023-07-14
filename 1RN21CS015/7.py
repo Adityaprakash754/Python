@@ -18,7 +18,7 @@ else:
 
 for i in range(10):
     if n.count(str(i)) > 0:
-        print(str(i),"appears", n.count(str(i)), "times");
+        print(str(i),"appears", n.count(str(i)), "times")
      
 #**************************************************************************
 
@@ -33,7 +33,7 @@ else:
 
 for i in range(10):
     if n.count(str(i)) > 0:
-        print(str(i),"appears", n.count(str(i)), "times");
+        print(str(i),"appears", n.count(str(i)), "times")
 
 
 
