@@ -16,7 +16,7 @@ class Employee:
     def updateSal(self, dept, sal):
         for emp in Employee.empl:
             if emp.dept == dept:
-                emp.sal = sal
+                emp.salary = sal
 
 
 n = int (input("Enter no of employees: "))
