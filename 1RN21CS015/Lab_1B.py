@@ -1,4 +1,4 @@
-# pallindrome or not - Lab 2
+# pallindrome or not - Lab 1B
 
 # Method 1
 n = int(input("Enter the number: "))
